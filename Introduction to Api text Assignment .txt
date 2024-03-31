@@ -1,0 +1,36 @@
+﻿3. What is the difference between collections and streams? Explain with an example. 
+Ans. 
+
+
+Streams:-
+It doesn’t store data, it operates on the source data structure i.e collection.
+They use functional interfaces like lambda which makes it a good fit for programming languages.
+Java Streams are consumable i.e; to traverse the stream, it needs to be created every time.
+Java streams support both sequential and parallel processing.
+All the Java stream API interfaces and classes are in java.util.stream package.
+Streams are not modifiable i.e one can’t add or remove elements from streams.
+Streams are iterated internally by just mentioning the operations.
+
+Collections:-
+It stores/holds all the data that the data structure currently has in a particular data structure like Set, List or Map,
+Don’t use functional interfaces.
+Non-consumable i.e; can be traversable multiple times without creating it again.
+Supports parallel processing and parallel processing can be very helpful in achieving high performance.
+Specific classes for primitive types such as IntStream, LongStream, and DoubleStream are used in collections since primitive data types such as int, long in the collections using auto-boxing and these operations could take a lot of time.
+These are modifiable i.e one can easily add to or remove elements from collections.
+Collections are iterated externally using loops.
+
+
+	
+
+Ex:- Example is stored in the file name Q3ex.java
+
+
+4. What is enum in java? Explain with an example.
+Ans. Enum in java is used to define a group of constants. It is used to represent the group of constants that have a common purpose. Each constant in the enum is predefined or public static final types. 
+Ex:- Example is stored in the file name Q4ex.java
+
+
+5. What are built in annotations in java?
+Ans. Annotations in java give extra information to the compiler which the compiler can understand and work on without changing the program logic. This is like a compiler understanding comments. 
+Some In-built annotations are : @Override @Depricated @Inherited @Target etc.
